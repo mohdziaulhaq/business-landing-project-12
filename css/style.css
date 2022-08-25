@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",serif;
+}
+
+nav{
+    background-color: #636c79;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 110px;
+    margin: 1.8rem 6rem;
+}
+
+.nav-list ul{
+    margin-left: 12rem; 
+    margin-top: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.nav-btn{
+    margin-top: 1.2rem;
+    margin-right: 30px;
+}
+
+.nav-btn button{
+    padding: 5px 45px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-one{
+    height: 550px;
+    background-color: #636c79;
+}
+
+.hero-one-div{
+    margin: 0rem 8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image{
+    width: 1000px;
+    height: 485px;
+    border-radius: 5px;
+    background: url('../assets/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-one-content{
+    margin-top: -75px;
+}
+
+.hero-one-content h1{
+    font-size: 50px;
+}
+
+.hero-one-content p{
+    margin-top: 25px;
+    color: #bfc1c5;
+    margin-bottom: 25px;
+}
+
+.hero-one-btn{
+    position: relative;
+}
+
+.hero-one-btn input{
+    width: 400px;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.hero-one-btn svg{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.hero-one-btn button{
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #5b8270;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-two{
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero-two h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.hero-two-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    line-height: 5px;
+    margin-bottom: 70px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-two-image{
+    background: url(../assets/pic2.jpg);
+    width: 1000px;
+    height: 485px;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.hero-three .headline h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.hero-three-content{
+    margin: 1rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+}
+
+.hero-text-content{
+    width: 500px;
+}
+
+.hero-text-content h1{
+    font-size: 35px;
+}
+
+.hero-text-content p{
+    font-size: 17px;
+    margin: 1.2rem 0rem;
+    color: #555658;
+}
+
+.hero-text-content button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    background-color: #5b8270;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.hero-three-image{
+    background: url(../assets/pic3.jpg);
+    width: 500px;
+    height: 475px;
+    background-size: cover;
+    background-position: right;
+}
+
+.hero-four{
+    margin: 7rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-four-image{
+    background: url(../assets/pic4.jpg);
+    width: 500px;
+    height: 475px;
+    background-size: cover;
+}
+
+.hero-content{
+    width: 500px;
+}
+
+.hero-content h1{
+    font-size: 35px;
+}
+
+.hero-content p{
+    font-size: 17px;
+    margin: 1.2rem 0rem;
+    color: #555658;
+}
+
+.hero-content button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    background-color: #5b8270;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-five{
+    margin: 7rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-five-image{
+    background: url(../assets/pic5.jpg);
+    width: 500px;
+    height: 475px;
+    background-size: cover;
+}
+
+.hero-six{
+    margin: 8rem 8rem;
+}
+
+.hero-six-headline{
+    margin: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-six-headline h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.hero-six-headline p{
+    width: 525px;
+    font-size: 18px;
+    color: #555658;
+}
+
+.team-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card-image1{
+    background: url(../assets/pic6.jpg);
+    width: 300px;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+}
+.card-image2{
+    background: url(../assets/pic7.jpg);
+    width: 300px;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+}
+.card-image3{
+    background: url(../assets/pic8.jpg);
+    width: 300px;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+}
+
+.team-card h3{
+    margin: 1rem 0.3rem;
+}
+
+.team-card p{
+    font-size: 14px;
+    color: #555658;
+}
+
+.hero-six button{
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    background-color: #5b8270;
+    color: #ffffff;   
+}
+
+footer{
+    padding: 5%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+#footer-logo-img{
+    width: 100px;
+}
+
+
+.social-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem -1rem 0rem;
+}
+
+.footer-bottom ul li{
+    margin-top: 20px;
+    list-style-type: none;
+    color: #555658;
+}
