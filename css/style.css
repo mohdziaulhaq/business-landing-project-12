@@ -48,6 +48,8 @@ nav{
 .hero-one{
     height: 550px;
     background-color: #636c79;
+    /* align-items: center; */
+    /* text-align: center; */
 }
 
 .hero-one-div{
@@ -56,7 +58,7 @@ nav{
     flex-direction: row;
     gap: 10rem;
     color: #ffffff;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -71,6 +73,7 @@ nav{
 
 .hero-one-content{
     margin-top: -75px;
+    width: 800px;
 }
 
 .hero-one-content h1{
@@ -85,10 +88,11 @@ nav{
 
 .hero-one-btn{
     position: relative;
+    width: 100%;
 }
 
 .hero-one-btn input{
-    width: 400px;
+    width: 30vw;
     padding: 10px 40px;
     font-size: 16px;
 }
@@ -101,8 +105,8 @@ nav{
 
 .hero-one-btn button{
     position: absolute;
-    top: 3px;
-    right: 5px;
+    top: 4px;
+    right: 1.5%;
     padding: 10px 40px;
     border: none;
     background-color: #5b8270;
@@ -352,4 +356,141 @@ footer{
     margin-top: 20px;
     list-style-type: none;
     color: #555658;
+}
+
+.hero-two-info p{
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1190px) {
+    .hero-two-image{
+        width: 600px;
+    }
+
+    .hero-one-div{
+        width: 800px;
+    }
+
+    .hero-one-content h1{
+        font-size: 40px;
+    }
+
+    .hero-four > .hero-content{
+        margin-left: 25px;
+    }
+
+    .nav-list ul{
+        margin-left: 2rem;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .hero-two-info p{
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1016px) { 
+    
+    .nav-btn{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-one{
+        height: 95vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image{
+        width: 500px;
+    }
+
+    .hero-one-content{
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-one-btn{
+        width: 360px;
+    }
+
+    .hero-two-list{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-two-image{
+        width: 625px;
+    }
+
+    .hero-three-content{
+        flex-direction: column-reverse;
+    }
+
+    .hero-four{
+        flex-direction: column;
+    }
+
+    .hero-five{
+        flex-direction: column-reverse;
+    }
+
+    .hero-six-headline{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-cards{
+        flex-direction: column;
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+
+    .team-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-one-content{
+        width: 400px;
+    }
+
+    .hero-one-content p{
+        width: 375px;
+    }
+
+    .hero-one-div{
+        flex-direction: column;
+        margin: 0rem auto;
+        width: 300px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+    }
+
+    .social-links{
+        margin-top: 20px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 627px) {
+    .hero-two-image{
+        width: 400px;
+    }
 }
