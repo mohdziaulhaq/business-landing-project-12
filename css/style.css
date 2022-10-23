@@ -493,4 +493,14 @@ footer{
     .hero-two-image{
         width: 400px;
     }
+
+    .nav-list ul{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-btn{
+        margin-left: 60px;
+    }
 }
